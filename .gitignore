@@ -12,3 +12,5 @@ target/*
 build/*
 pom.xml.versionsBackup
 /aem-web/src/v1/postgres-data/
+pgadmin-data
+postgres-data

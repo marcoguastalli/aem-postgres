@@ -4,8 +4,8 @@ Adobe AEM with PostgreSQL and PgAdmin in a docker container
 ### Build
 - `cd ~/dev/repository/git/aem-postgres/src/v1`
 - `mkdir pgadmin-data postgres-data`
-- `chmod -R 700 ./pgadmin-data`
-- `chmod -R 700 ./postgres-data`
+- `chmod -R 777 ./pgadmin-data`
+- `chmod -R 777 ./postgres-data`
 - `docker-compose up -d`
 
 ### Run
